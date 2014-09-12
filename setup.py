@@ -4,18 +4,18 @@ from distutils.core import setup
 
 setup(
     name = 'callwith',
-    version = '0.0.3',
+    version = '0.1.1',
     py_modules = ['callwith'],
     description = 'Call function with parameters',
     long_description = open('README').read(),
     author = 'huyx',
     author_email = 'ycyuxin@gmail.com',
-    url = 'https://pypi.python.org/pypi/callwith',
-    keywords = ['call', 'function'],
+    url = 'https://github.com/huyx/callwith',
+    keywords = ['functools', 'function', 'call'],
     classifiers = [
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
         "Operating System :: OS Independent",
