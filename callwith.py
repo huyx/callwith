@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 
-class CallWith:
+class Parameters:
     __slot__ = ('args', 'kwargs')
 
     def __init__(self, *args, **kwargs):
@@ -19,4 +19,8 @@ class CallWith:
         return ', '.join(items)
 
     def __repr__(self):
-        return 'CallWith({})'.format(self)
+        return '{}({})'.format(self.__class__.__name__, self)
+
+
+class CallWith(Parameters):
+    __slot__ = ('args', 'kwargs')
